@@ -75,7 +75,7 @@ namespace SampleGame
                 return;
             
             figure.FirstInstallFigure(true);
-            figure.InstallView(_figureData.Shape, _figureData.Color, _figureData.Animal, _figureData.ShapeForCanvas);
+            figure.InstallView(_figureData.Shape, _figureData.Color, _figureData.Animal);
             figure.InstallId(_figureData.id);
 
             if (_figureData is FigureBoxData box)

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c015ac19b8dbf468abae883112e869, type: 3}
   m_Name: FigureHippo
   m_EditorClassIdentifier: 
-  Shape: {fileID: 21300000, guid: 2fb165919b2cf6e448380a015dbbd833, type: 3}
+  Shape: {fileID: 21300000, guid: 086b56c038a639a49ae469fbc85d6a7b, type: 3}
   ShapeForCanvas: {fileID: 21300000, guid: 086b56c038a639a49ae469fbc85d6a7b, type: 3}
   Color: {r: 0.25943398, g: 0.65435696, b: 1, a: 1}
   Animal: {fileID: 21300000, guid: 55eb3d9b23dd5cd41a191073eae1b8e2, type: 3}

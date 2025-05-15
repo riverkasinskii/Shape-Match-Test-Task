@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09cf471a3c575954dafda7ddc3c2dc66, type: 3}
   m_Name: Sticky
   m_EditorClassIdentifier: 
-  Type: 0
+  Type: 2

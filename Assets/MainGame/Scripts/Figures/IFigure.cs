@@ -12,7 +12,7 @@ namespace SampleGame
         public bool GetFigureState();
         public void TryInstallBoxColliderParams(Vector2 size);
         public void TryInstallCircleColliderParams(float radius);
-        public void InstallView(Sprite shape, Color color, Sprite animal, Sprite shapeForCanvas);
+        public void InstallView(Sprite shape, Color color, Sprite animal);
         public void InstallId(int id);        
     }
 }

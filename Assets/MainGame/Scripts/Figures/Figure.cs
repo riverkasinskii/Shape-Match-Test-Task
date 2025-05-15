@@ -17,8 +17,7 @@ namespace SampleGame
         [SerializeField] private SpriteRenderer _animal;
         [SerializeField] private Transform _rootTransformCollider2D;
 
-        private int _id;
-        private Sprite _shapeForCanvas;
+        private int _id;        
         private CircleCollider2D _circleCollider2D;
         private BoxCollider2D _boxCollider2D;        
 
@@ -45,13 +44,12 @@ namespace SampleGame
             }
         }
 
-        public void InstallView(Sprite shape, Color color, Sprite animal, Sprite shapeForCanvas)
+        public void InstallView(Sprite shape, Color color, Sprite animal)
         {
             _shape.sprite = shape;
             _color.sprite = shape;
             _color.color = color;
-            _animal.sprite = animal;
-            _shapeForCanvas = shapeForCanvas;
+            _animal.sprite = animal;            
         }
 
         public void InstallId(int id)
@@ -60,7 +58,7 @@ namespace SampleGame
         }
 
         public (Sprite, Sprite, Color, Sprite) GetView()
-            => (_shapeForCanvas, _shapeForCanvas, _color.color, _animal.sprite);
+            => (_shape.sprite, _shape.sprite, _color.color, _animal.sprite);
 
         public int GetId() => _id;
 

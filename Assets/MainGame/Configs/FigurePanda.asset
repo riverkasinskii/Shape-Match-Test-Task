@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c015ac19b8dbf468abae883112e869, type: 3}
   m_Name: FigurePanda
   m_EditorClassIdentifier: 
-  Shape: {fileID: 21300000, guid: 7766e65b52593bd488450c5767bb7086, type: 3}
+  Shape: {fileID: 21300000, guid: 5530203a1dc07674ca3e1439deb8d2c4, type: 3}
   ShapeForCanvas: {fileID: 21300000, guid: 5530203a1dc07674ca3e1439deb8d2c4, type: 3}
   Color: {r: 0.3915094, g: 1, b: 0.68857694, a: 1}
   Animal: {fileID: 21300000, guid: 811e9528e1b0c9e4a8194db1b543b1a6, type: 3}
   id: 5
-  BehaviourData: {fileID: 11400000, guid: aad494437f4571d4594e79c95dc4254a, type: 2}
+  BehaviourData: {fileID: 11400000, guid: a57f058b176b4224a8a8700916c2d23c, type: 2}
   Collider:
-    Size: {x: 0.75, y: 0.6}
+    Size: {x: 0.6, y: 0.5}
     Type: 0

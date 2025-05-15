@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c015ac19b8dbf468abae883112e869, type: 3}
   m_Name: FigureGiraffe
   m_EditorClassIdentifier: 
-  Shape: {fileID: 21300000, guid: 2fb165919b2cf6e448380a015dbbd833, type: 3}
+  Shape: {fileID: 21300000, guid: 086b56c038a639a49ae469fbc85d6a7b, type: 3}
   ShapeForCanvas: {fileID: 21300000, guid: 086b56c038a639a49ae469fbc85d6a7b, type: 3}
   Color: {r: 0.9940503, g: 1, b: 0.25, a: 1}
   Animal: {fileID: 21300000, guid: 41547af4905d85f45b579fb0f1a70bb4, type: 3}
   id: 2
-  BehaviourData: {fileID: 11400000, guid: aad494437f4571d4594e79c95dc4254a, type: 2}
+  BehaviourData: {fileID: 11400000, guid: a57f058b176b4224a8a8700916c2d23c, type: 2}
   Collider:
     Size: {x: 0.6, y: 0.6}
     Type: 0

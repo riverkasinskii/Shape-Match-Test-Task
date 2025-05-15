@@ -8,8 +8,7 @@ public enum ColliderType
 
 public class FigureData : ScriptableObject
 {
-    public Sprite Shape;
-    public Sprite ShapeForCanvas;
+    public Sprite Shape;    
     public Color Color;
     public Sprite Animal;
     public int id;
